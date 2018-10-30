@@ -22,7 +22,7 @@ from setuptools import setup
 
 install_requires = []
 if not sys.platform.lower().startswith('java'):
-    install_requires.append('JPype1')
+    install_requires.append('ha_JPype1')
 
 setup(
     #basic package data
